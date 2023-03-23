@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+   
+      {
+        "name": "BookMyShow Dev",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "args": [
+          "--flavor",
+          "dev"
+        ]
+      },
+      {
+        "name": "BookMyShow QA",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "args": [
+          "--flavor",
+          "qa"
+        ]
+      },
+      {
+        "name": "BookMyShow Prod",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "args": [
+          "--flavor",
+          "prod"
+        ]
+      }
+    ]
+  }
